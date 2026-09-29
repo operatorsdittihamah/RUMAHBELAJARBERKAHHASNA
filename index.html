@@ -1463,8 +1463,33 @@ body::after {
   let globalScoresData = {}; 
 
   // Kategori Sesuai Header Spreadsheet (Kolom B s/d U)
-  const quizCategories = Array.from({length: 20}, (_, i) => `Soal Ke ${i + 1}`);
+ // =====================================================
+// LABEL DIAGRAM NILAI
+// EDIT NAMA DI DALAM TANDA "..." SESUAI KEBUTUHAN
+// =====================================================
 
+const quizCategories = [
+  "1. MTK_Perkalian 2 Agka dan 1 Angka",
+  "2. B. Inggris_Matching Adjectives",
+  "3. B. Inggris_Adjectives Word",
+  "4. B. Arab_Kata Sifat Bahasa Arab Ke-1",
+  "5. B. Arab_Kata Sifat Bahasa Arab Ke-2",
+  "6. Daily Activities",
+  "7. ",
+  "8. ",
+  "9. ",
+  "10. ",
+  "11. ",
+  "12. ",
+  "13. ",
+  "14. ",
+  "15. ",
+  "16. ",
+  "17. ",
+  "18. ",
+  "19. ",
+  "20. "
+];
   window.addEventListener('DOMContentLoaded', () => {
     loadProfile();
     initChart();
